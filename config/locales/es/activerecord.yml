@@ -82,8 +82,8 @@ es:
         one: "meta"
         other: "metas"
       sdg/manager:
-        one: "Gestor ODS"
-        other: "Gestores ODS"
+        one: "gestor ODS"
+        other: "gestores ODS"
       site_customization/page:
         one: Página
         other: Páginas

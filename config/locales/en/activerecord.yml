@@ -79,8 +79,8 @@ en:
         one: "goal"
         other: "goals"
       sdg/manager:
-        one: "SDG Manager"
-        other: "SDG Managers"
+        one: "SDG manager"
+        other: "SDG managers"
       sdg/target:
         one: "target"
         other: "targets"

@@ -1,5 +1,5 @@
 class Admin::SDG::Managers::IndexComponent < ApplicationComponent
-  include Admin::Header
+  include Header
 
   attr_reader :users
 
@@ -10,6 +10,6 @@ class Admin::SDG::Managers::IndexComponent < ApplicationComponent
   private
 
     def title
-      SDG::Manager.model_name.human(count: 2)
+      SDG::Manager.model_name.human(count: 2).titleize
     end
 end

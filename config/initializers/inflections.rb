@@ -18,5 +18,6 @@
 ActiveSupport::Inflector.inflections(:en) do |inflect|
   inflect.plural(/^(\d+)$/i, '\1')
   inflect.acronym "SDG"
+  inflect.acronym "ODS"
   inflect.irregular "organización", "organizaciones"
 end
